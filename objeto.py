@@ -10,6 +10,6 @@ class Aluno:
                    f"\n a idade do aluno é: {self.idade}"
                    f"\n o cpf do aluno é {self.idade}"
                    )
-"""instanciando objetos"""
+    #instanciando objetos
 aluno = Aluno("atila", 23,"896-963-963-04")
 print(aluno)
