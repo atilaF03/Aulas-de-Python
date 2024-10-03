@@ -3,7 +3,7 @@ sys.path.append("/workspaces/Python-Orientado-a-Objetos/")
 
 from abc import ABC ,abstractmethod
 from projeto.models.Endereco import Endereco
-from projeto.models.enums.Genero import Genero
+from projeto.enums.Genero import Genero
 from projeto.models.Pessoa import Pessoa
 
 class Fisica(Pessoa,ABC):
@@ -18,6 +18,7 @@ class Fisica(Pessoa,ABC):
         return (f"\nsuper().__str__()"
                 f"\no cpf: {self.cpf}"
                 f"\no rg:{self.rg}"
-                f"\data de nascimento"
+                f"\ndata de nascimento{self.dataNascimento}"
+                f"\no sexo é {Genero.name}"
                 )
     

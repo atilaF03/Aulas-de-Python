@@ -6,4 +6,4 @@ class Genero(Enum):
 
     def __init__(self,nome :str ,sigla:str) -> None:
             self.nome = nome
-            self.sigla = sigla
+            self.sigla = sigla 
