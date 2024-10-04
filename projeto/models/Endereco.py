@@ -1,6 +1,6 @@
 import sys
 sys.path.append("/workspaces/Python-Orientado-a-Objetos/")
-from projeto.models.enums.UnidadeFederativa import UnidadeFederativa 
+from projeto.enums.UnidadeFederativa import UnidadeFederativa 
 
 class Endereco():
     def __init__(self, logradouro: str,numero:str,complemento:str,cep:str,cidade:str, uf: UnidadeFederativa) -> None:
